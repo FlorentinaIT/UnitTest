@@ -42,13 +42,13 @@ class Test_Manduka(unittest.TestCase):
         self.chrome.quit()
 
 class Test_Home_Page(Test_Manduka):
+
     def test_page_title(self):
         '''
         This method verifies if the name of the page is correct
         '''
         expected = 'Manduka | Premium Yoga Mats, Yoga Towels and Clothing | Manduka EU'
         actual = self.chrome.title
-        self.assertEqual(expected, actual)
         self.assertEqual(expected, actual)
 
     def test_whole_sales(self):
@@ -78,53 +78,75 @@ class Test_Home_Page(Test_Manduka):
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
 
+    def test_search(self):
+        '''
+        check the usability of search button (introducing text and press search button)
+        '''
+        self.chrome.find_element(*self.SEARCH).send_keys('travel')
+        self.chrome.find_element(*self.SEARCH_BUTTON).click()
+        expected = 'https://eu.manduka.com/pages/yoga-travel-mats'
+        actual = self.chrome.current_url
+        self.assertEqual(expected, actual)
+
     def test_mats_page(self):
         '''
         check that "Mats" button open the mats page
         '''
         self.chrome.find_element(*self.MATS).click()
+        time.sleep(3)
         expected = 'https://eu.manduka.com/pages/yoga-mats-category'
         actual = self.chrome.current_url
+        self.assertEqual(expected, actual)
 
     def test_towels_page(self):
         '''
         test that when I click on "Towels" element, I can access towel page
         '''
         self.chrome.find_element(*self.TOWELS).click()
+        time.sleep(3)
         expected = 'https://eu.manduka.com/collections/yoga-towels'
         actual = self.chrome.current_url
+        self.assertEqual(expected, actual)
 
     def test_equipment_page(self):
         '''
         test that when I click on "Equipment" button, I can access equipment page
         '''
         self.chrome.find_element(*self.EQUIPMENT).click()
+        time.sleep(5)
         expected = 'https://eu.manduka.com/collections/yoga-props-accessories'
         actual = self.chrome.current_url
+        self.assertEqual(expected, actual)
 
     def test_clothing_page(self):
         '''
         check that when I click on "Clothing" element I can access clothing page
         '''
         self.chrome.find_element(*self.CLOTHING).click()
+        time.sleep(10)
         expected = 'https://eu.manduka.com/pages/apparel'
         actual = self.chrome.current_url
+        self.assertEqual(expected, actual)
 
     def test_gifts_page(self):
         '''
         check that when I click on "Gifts" button I can access gifts page
         '''
         self.chrome.find_element(*self.GIFTS).click()
+        time.sleep(10)
         expected = 'https://eu.manduka.com/pages/moms-day-gift-guide'
         actual = self.chrome.current_url
+        self.assertEqual(expected, actual)
 
     def test_sale_page(self):
         '''
         check that when I click on "Sale" element, I can access sale page
         '''
         self.chrome.find_element(*self.SALE).click()
+        time.sleep(15)
         expected = 'https://eu.manduka.com/pages/sale'
         actual = self.chrome.current_url
+        self.assertEqual(expected, actual)
 
     def test_guidance_page(self):
         '''
@@ -133,6 +155,7 @@ class Test_Home_Page(Test_Manduka):
         self.chrome.find_element(*self.GUIDANCE).click()
         expected = 'https://eu.manduka.com/'
         actual = self.chrome.current_url
+        self.assertEqual(expected, actual)
 
     def test_sign_in_btn_is_displayed(self):
         '''
