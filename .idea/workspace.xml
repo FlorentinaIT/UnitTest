@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0440b17-7f42-4300-a4ec-94095e2b61c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/UnitTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_homepage_manduka.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_homepage_manduka.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_search_manduka.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_search_manduka.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Test Results_2023-05-27_20-32-47.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +27,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_homepage_manduka.Test_Home_Page.test_password_field_is_displayed">
+  <component name="RunManager" selected="Python tests.Python tests for suite_teste.TestSuite">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="UnitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for suite_teste.TestSuite" />
         <item itemvalue="Python tests.Python tests for test_homepage_manduka.Test_Home_Page.test_password_field_is_displayed" />
         <item itemvalue="Python tests.Python tests for test_homepage_manduka.Test_Home_Page.test_e_mail_field_is_displayed" />
         <item itemvalue="Python tests.Python tests for test_homepage_manduka.Test_Home_Page.test_sign_in_btn_is_displayed" />
-        <item itemvalue="Python tests.Python tests for suite_teste.TestSuite" />
         <item itemvalue="Python tests.Python tests for test_homepage_manduka.Test_Home_Page.test_search" />
       </list>
     </recent_temporary>
