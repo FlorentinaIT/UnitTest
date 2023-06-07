@@ -60,6 +60,7 @@ class Test_Home_Page(Test_Manduka):
         expected = 'https://euwholesale.manduka.com/account/login'
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
+
     def test_end_of_season(self):
         '''
         check that "End of season sale! shop now" open the sale page
@@ -68,6 +69,7 @@ class Test_Home_Page(Test_Manduka):
         expected = 'https://eu.manduka.com/pages/sale'
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
+
     def test_my_account(self):
         '''
         check that "My Account" button open the login page
@@ -76,6 +78,7 @@ class Test_Home_Page(Test_Manduka):
         expected = 'https://eu.manduka.com/account/login?return_url=%2Faccount'
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
+
     def test_search(self):
         '''
         check the usability of search button (introducing text and press search button)
@@ -95,6 +98,7 @@ class Test_Home_Page(Test_Manduka):
         expected = 'https://eu.manduka.com/pages/yoga-mats-category'
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
+
     def test_towels_page(self):
         '''
         test that when I click on "Towels" element, I can access towel page
@@ -104,6 +108,7 @@ class Test_Home_Page(Test_Manduka):
         expected = 'https://eu.manduka.com/collections/yoga-towels'
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
+
     def test_equipment_page(self):
         '''
         test that when I click on "Equipment" button, I can access equipment page
@@ -113,6 +118,7 @@ class Test_Home_Page(Test_Manduka):
         expected = 'https://eu.manduka.com/collections/yoga-props-accessories'
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
+
     def test_clothing_page(self):
         '''
         check that when I click on "Clothing" element I can access clothing page

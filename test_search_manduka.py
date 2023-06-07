@@ -44,7 +44,7 @@ class Test_Manduka_Search(unittest.TestCase):
 
     def test_no_of_elements_in_list(self):
         '''
-        check no of elements/product from list displayed after searching "clothing'
+        check no of elements/products from list displayed after searching 'clothing'
         '''
         self.chrome.find_element(*self.SEARCH).send_keys('clothing')
         self.chrome.find_element(*self.SEARCH_BUTTON).click()
@@ -57,7 +57,7 @@ class Test_Manduka_Search(unittest.TestCase):
     def test_element_177_in_list(self):
         '''
         check list functionality for search by "clothing" and click on House Tee - Unisex product using
-        index of element (178)
+        index of element (177)
         '''
         self.chrome.find_element(*self.SEARCH).send_keys('clothing')
         self.chrome.find_element(*self.SEARCH_BUTTON).click()
@@ -70,7 +70,7 @@ class Test_Manduka_Search(unittest.TestCase):
 
     def test_element_177_on_page(self):
         '''
-        check the url after clicking on 178 element from list
+        check the url after clicking on 177 element from list
         '''
         self.chrome.find_element(*self.SEARCH).send_keys('clothing')
         self.chrome.find_element(*self.SEARCH_BUTTON).click()
@@ -85,7 +85,7 @@ class Test_Manduka_Search(unittest.TestCase):
     def test_element_179_in_list(self):
         '''
         check list functionality for search by "clothing" and click on Essence Legging product using
-        index of element (180)
+        index of element (179)
         '''
         self.chrome.find_element(*self.SEARCH).send_keys('clothing')
         self.chrome.find_element(*self.SEARCH_BUTTON).click()
@@ -99,8 +99,8 @@ class Test_Manduka_Search(unittest.TestCase):
 
     def test_element_179_on_page(self):
         '''
-        check corresponding url for search by "clothing" and click on Essence Legging product using
-        index of element (180)
+        check corresponding url for search by 'clothing' and click on Essence Legging product using
+        index of element (179)
         '''
         self.chrome.find_element(*self.SEARCH).send_keys('clothing')
         self.chrome.find_element(*self.SEARCH_BUTTON).click()
@@ -113,8 +113,8 @@ class Test_Manduka_Search(unittest.TestCase):
 
     def test_element_184_in_list(self):
         '''
-        check list functionality for search by "clothing" and click on Essence Bra product using
-        index of element (185)
+        check list functionality for search by 'clothing' and click on Essence Bra product using
+        index of element (184)
         '''
         self.chrome.find_element(*self.SEARCH).send_keys('clothing')
         self.chrome.find_element(*self.SEARCH_BUTTON).click()
@@ -125,9 +125,10 @@ class Test_Manduka_Search(unittest.TestCase):
         expected = 'https://eu.manduka.com/products/essence-bra?variant=31569100767283'
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
+
     def test_element_184_on_page(self):
         '''
-        check corresponding url for search by "clothing" and click on Essence Bra product using
+        check corresponding url for search by 'clothing' and click on Essence Bra product using
         index of element (184)
         '''
         self.chrome.find_element(*self.SEARCH).send_keys('clothing')
