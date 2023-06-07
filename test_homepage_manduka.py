@@ -129,7 +129,7 @@ class Test_Home_Page(Test_Manduka):
         '''
         self.chrome.find_element(*self.GIFTS).click()
         time.sleep(10)
-        expected = 'https://eu.manduka.com/pages/moms-day-gift-guide'
+        expected = 'https://eu.manduka.com/pages/gift-guide'
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
 
