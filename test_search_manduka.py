@@ -54,7 +54,7 @@ class Test_Manduka_Search(unittest.TestCase):
         actual = len(list)
         self.assertEqual(expected, actual)
 
-    def test_element_177_in_list(self):
+    def test_element_178_in_list(self):
         '''
         check list functionality for search by "clothing" and click on House Tee - Unisex product using
         index of element (177)
@@ -68,9 +68,9 @@ class Test_Manduka_Search(unittest.TestCase):
         actual = self.chrome.find_element(*self.HOUSE_TEE).text
         self.assertEqual(expected, actual)
 
-    def test_element_177_on_page(self):
+    def test_element_178_on_page(self):
         '''
-        check the url after clicking on 177 element from list
+        check the url after clicking on 178 element from list (with index 177)
         '''
         self.chrome.find_element(*self.SEARCH).send_keys('clothing')
         self.chrome.find_element(*self.SEARCH_BUTTON).click()
@@ -82,7 +82,7 @@ class Test_Manduka_Search(unittest.TestCase):
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
 
-    def test_element_179_in_list(self):
+    def test_element_180_in_list(self):
         '''
         check list functionality for search by "clothing" and click on Essence Legging product using
         index of element (179)
@@ -97,7 +97,7 @@ class Test_Manduka_Search(unittest.TestCase):
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
 
-    def test_element_179_on_page(self):
+    def test_element_180_on_page(self):
         '''
         check corresponding url for search by 'clothing' and click on Essence Legging product using
         index of element (179)
@@ -111,7 +111,7 @@ class Test_Manduka_Search(unittest.TestCase):
         actual = self.chrome.find_element(*self.ESSENCE_LEGGING).text
         self.assertEqual(expected, actual)
 
-    def test_element_184_in_list(self):
+    def test_element_185_in_list(self):
         '''
         check list functionality for search by 'clothing' and click on Essence Bra product using
         index of element (184)
@@ -126,7 +126,7 @@ class Test_Manduka_Search(unittest.TestCase):
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
 
-    def test_element_184_on_page(self):
+    def test_element_185_on_page(self):
         '''
         check corresponding url for search by 'clothing' and click on Essence Bra product using
         index of element (184)
