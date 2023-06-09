@@ -3,7 +3,7 @@ import unittest
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+from selenium.common.exceptions import NoSuchElementException
 
 
 class Test_Manduka(unittest.TestCase):
@@ -23,7 +23,6 @@ class Test_Manduka(unittest.TestCase):
     GIFTS = (By.LINK_TEXT, 'GIFTS')
     SALE = (By.LINK_TEXT, 'SALE')
     GUIDANCE = (By.LINK_TEXT, 'GUIDANCE')
-
 
     def setUp(self):
         '''
@@ -60,6 +59,15 @@ class Test_Home_Page(Test_Manduka):
         expected = 'https://euwholesale.manduka.com/account/login'
         actual = self.chrome.current_url
         self.assertEqual(expected, actual)
+
+    def test_wholesale_not_displayed_after_click(self):
+        '''
+        check that after clicking the wholesale & teachers button - the button is not displayed anymore
+        '''
+
+        self.chrome.find_element(*self.WHOLESALE).click()
+        with self.assertRaises(NoSuchElementException):
+            self.chrome.find_element(*self.WHOLESALE)
 
     def test_end_of_season(self):
         '''
@@ -184,4 +192,8 @@ class Test_Home_Page(Test_Manduka):
         self.assertTrue(
             self.chrome.find_element(*self.LOGIN_BUTTON).is_displayed()
         )
+
+
+
+
 

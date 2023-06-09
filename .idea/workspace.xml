@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e0440b17-7f42-4300-a4ec-94095e2b61c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Test Results_2023-06-07_12-32-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_homepage_manduka.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_homepage_manduka.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_search_manduka.Test_Manduka_Search.test_element_180_in_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_homepage_manduka.Test_Home_Page.test_top_bar" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +77,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_search_manduka.Test_Manduka_Search.test_element_180_in_list&quot;" />
+      <option name="_new_target" value="&quot;test_homepage_manduka.Test_Home_Page.test_top_bar&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_homepage_manduka.Test_Home_Page.test_top_bar_x_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_homepage_manduka.Test_Home_Page.test_top_bar_x_button&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -90,20 +106,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_search_manduka.Test_Manduka_Search.test_element_180_on_page&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_search_manduka.Test_Manduka_Search.test_elements_in_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="UnitTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_search_manduka.Test_Manduka_Search.test_elements_in_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -124,10 +126,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for suite_teste.TestSuite" />
+        <item itemvalue="Python tests.Python tests for test_homepage_manduka.Test_Home_Page.test_top_bar_x_button" />
+        <item itemvalue="Python tests.Python tests for test_homepage_manduka.Test_Home_Page.test_top_bar" />
         <item itemvalue="Python tests.Python tests for test_search_manduka.Test_Manduka_Search.test_no_of_elements_in_list" />
         <item itemvalue="Python tests.Python tests for test_search_manduka.Test_Manduka_Search.test_element_180_on_page" />
-        <item itemvalue="Python tests.Python tests for test_search_manduka.Test_Manduka_Search.test_element_180_in_list" />
-        <item itemvalue="Python tests.Python tests for test_search_manduka.Test_Manduka_Search.test_elements_in_list" />
       </list>
     </recent_temporary>
   </component>
