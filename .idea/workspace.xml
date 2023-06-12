@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0440b17-7f42-4300-a4ec-94095e2b61c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Test Results_2023-06-07_12-32-19.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_homepage_manduka.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_homepage_manduka.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_search_manduka.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_search_manduka.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
